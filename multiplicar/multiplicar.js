@@ -16,7 +16,7 @@ let listarTabla = (base, limite = 10) => {
 }
 
 
-// module.exportscrearArchivo = (base, limite = 10) => { Otra manera de exportar Mejor abajo y en listado
+// module.exports.crearArchivo = (base, limite = 10) => { Otra manera de exportar Mejor abajo y e listado
 let crearArchivo = (base, limite = 10) => {
 
     return new Promise((resolve, reject) => {
